@@ -1,0 +1,30 @@
+﻿@model PrimeiroCRUD.Models.Carro
+@{
+    ViewData["Title"] = "NovoCarro";
+}
+
+<h2>Inserir novo carro</h2>
+
+<form asp-action="NovoCarro" method="post">
+
+    <div class="form-group">
+        <label asp-for="Marca" class="control-label"></label>
+        <input asp-for="Marca" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Nome" class="control-label"></label>
+        <input asp-for="Nome" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Ano" class="control-label"></label>
+        <input asp-for="Ano" class="form-control" />
+    </div>
+
+    <input type="submit" value="Salvar" class="btn" />
+
+</form>
+
+<a asp-action="Index" class="btn btn-link">Voltar</a>
+
