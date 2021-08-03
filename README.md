@@ -1,3 +1,3 @@
 # CRUD
-CRUD completo para estudo ASP .NET MVC
+Study on ASP .NET MVC with complete crud
 
